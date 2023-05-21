@@ -1,0 +1,256 @@
+
+body{
+	background-color: black;
+}
+
+#Title{
+	animation: 
+		type-effect 4.5s steps(20, end),
+		blinking .5s step-end infinite;
+	overflow: hidden;
+	letter-spacing: .15em;
+	text-align: center;
+	border-right: .20em solid #5911FB;
+	white-space: nowrap;
+	margin: 0 auto;
+	color: #5911FB ;
+	font-family: "Courier";
+}
+/* CITATION: Graham, Geoff. “Typewriter Effect: CSS-Tricks.” CSS-Tricks, 14 Dec. 2017, css-tricks.com/snippets/css/typewriter-effect/.
+Accessed 17 May 2020. */
+
+@keyframes type-effect {
+  	from { width: 0 }
+  	to { width: 100% }
+}
+/* CITATION: Graham, Geoff. “Typewriter Effect: CSS-Tricks.” CSS-Tricks, 14 Dec. 2017, css-tricks.com/snippets/css/typewriter-effect/.
+Accessed 17 May 2020. */
+
+@keyframes blinking {
+  	to, from { border-color: transparent }
+  	50% { border-color: yellow; }
+}
+/* CITATION: Graham, Geoff. “Typewriter Effect: CSS-Tricks.” CSS-Tricks, 14 Dec. 2017, css-tricks.com/snippets/css/typewriter-effect/.
+Accessed 17 May 2020. */
+
+#quest1_but1
+{
+	background-color: #369D39;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+}
+
+#quest1_but2
+{
+	background-color: #F95555;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+}
+
+#submitbut2
+{
+	background-color: #3D51AD;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#submitbut3
+{
+	background-color: #408B85;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#submitbut4
+{
+	background-color: #408B85;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#submitbut5
+{
+	background-color: #408B85;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#submitbut6
+{
+	background-color: #408B85;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#submitbut7
+{
+	background-color: #408B85;
+	color: white;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#enotform{
+	color:black;
+	background-color: #26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+#optionform{
+	color:black;
+	background-color: #26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#quest1{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+#quest2{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#border1{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#d_quest1{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#d_quest2{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#d_quest3{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#d_quest4{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#m_quest1{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#m_quest2{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#m_quest3{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#m_quest4{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#mi_quest1{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#kfc_res{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#optionform2{
+	color:black;
+	background-color: #26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}
+
+#kfc_quest1{
+	color:#26F601;
+	align-content: center;
+	justify-content: center;
+	font-family: "Courier";
+}

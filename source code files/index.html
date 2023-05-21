@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<!-- custom font from google fonts -->
+	
+	<h2 id = "Title">Scientific Calculator</h2>
+	</br><label id = "quest1" for="enot">Would you like to learn about inputing values in e-notation in Javascript?</label>
+	</br>
+        <button id = "quest1_but1" value="yes" onclick="enot(this.value)">Yes</button>
+        <button id = "quest1_but2" value="no" onclick="enot(this.value)">No</button>
+	<p id="enot_info"></p>
+	<!-- Above is the e-notation question followed by two buttons with functions -->
+
+	<p id = border1>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
+	<!-- border to separate first question from calculation question -->
+
+	<label id = "quest2" for "options">Choose which operation you would like to perform :: </label>
+	<form>
+    <select id = "optionform" name="options">
+            <option value="density">Difference in Density between Two Objects</option>
+            <option value="mass">Difference in Mass between Two Objects</option>
+			<option value="mi_light">Miles to Lightyears</option>
+			<option value="kelvin">Kelvin to Fahrenheit and Celsius</option>
+          </select>
+	</form>
+	<!-- asks question and has form for options -->
+
+	<input id = "submitbut2" type = "submit" value="Submit" onclick = "options()"/></br>
+	<!-- submit button for submitting option selection -->
+
+	<label id = "d_quest1" ></br>Enter a value for the volume of object 1 :: </br></label>
+	<input id = "d_ans1" type = "text" name = "den_ob1" />
+
+	<label id = "d_quest2" ></br>Enter a value for the volume of object 2 :: </br></label>
+	<input id = "d_ans2" type = "text" name = "den_ob2"/>
+
+	<label id = "d_quest3" ></br>Enter a value for the mass of object 1 :: </br></label>
+	<input id = "d_ans3" type = "text" name = "den_ob3" />
+
+	<label id = "d_quest4" ></br>Enter a value for the mass of object 2 :: </br></label>
+	<input id = "d_ans4" type = "text" name = "den_ob4"/></br></br>
+	<!-- prompts for entering values -->
+
+	<input id = "submitbut3" type = "submit" value="Submit" onclick = "density()"/></br>
+	<p id = "ans1"></p>
+	<!-- submit button for first calculaton -->
+
+	<!-- BORDER -->
+
+	<label id = "m_quest1" ></br>Enter a value for the density of object 1 :: </br></label>
+	<input id = "m_ans1" type = "text" name = "mass_ob1" />
+
+	<label id = "m_quest2" ></br>Enter a value for the density of object 2 :: </br></label>
+	<input id = "m_ans2" type = "text" name = "mass_ob2"/>
+
+	<label id = "m_quest3" ></br>Enter a value for the volume of object 1 :: </br></label>
+	<input id = "m_ans3" type = "text" name = "mass_ob3" />
+
+	<label id = "m_quest4" ></br>Enter a value for the volume of object 2 :: </br></label>
+	<input id = "m_ans4" type = "text" name = "mass_ob4"/></br></br>
+	<!-- prompts for entering values -->
+
+	<input id = "submitbut4" type = "submit" value="Submit" onclick = "mass()"/></br>
+	<p id = "ans2"></p>
+	<!-- submit button for second calculaton -->
+
+	<!-- BORDER -->
+
+	<label id = "mi_quest1" ></br>Please enter distance in miles of the object in space :: </br></label>
+	<input id = "mi_ans1" type = "text" name = "miles_ob1" />
+	<!-- prompts for entering values -->
+
+	<input id = "submitbut5" type = "submit" value="Submit" onclick = "mi_light()"/></br>
+	<p id = "ans3"></p>
+	<!-- submit button for third calculaton -->
+
+<!-- BORDER -->
+
+	<label id = "kfc_res" for "options2">Which conversion would you like to perform? :: </label>
+		<form>
+		<select id = "optionform2" name="options2">
+				<option value="far">Kelvin to Fahrenheit</option>
+				<option value="cel">Kelvin to Celsius</option>
+			</select>
+		</form>
+		<input id = "submitbut6" type = "submit" value="Submit" onclick = "options2()"/></br>
+	<!-- option form for choosing which calculation -->
+
+	<label id = "kfc_quest1" ></br>Enter a temperature value in Kelvins :: </br></label>
+	<input id = "kfc_ans1" type = "text" name = "kfc_ob1" />
+	<!-- prompts for entering values -->
+
+	<input id = "submitbut7" type = "submit" value="Submit" onclick = "kelvin()"/></br>
+	<p id = "ans4"></p>
+	<!-- submit button for fourth calculaton -->
+	
+	<script src="script.js"></script>
+  </body>
+</html>
